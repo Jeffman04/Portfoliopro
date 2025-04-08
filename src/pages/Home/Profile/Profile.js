@@ -14,7 +14,7 @@ export default function Profile() {
                             <a href='https://www.facebook.com/nenungwi.rotshidzwa'>
                                 <i className='fa fa-facebook-square'></i>
                             </a>
-                            <a href='www.linkedin.com/in/nenungwi-rotshidzwa'>
+                            <a href='https://www.linkedin.com/in/nenungwi-rotshidzwa'>
                                 <i className='fa fa-linkedin'></i>
                             </a>
                             <a href='https://www.instagram.com/rotshidzwajeffrey/?hl=en'>
