@@ -121,11 +121,11 @@ export default function Resume(props) {
        <div className="experience-description">
          <span className="resume-description-text">
          - maintained the website for client for managing their
-            data, authorising users, uploading documents etc. .
+            data, authorising users, uploading documents etc..
          </span>
          <br />
          <span className="resume-description-text">
-         - Cleaning, recoverind, and export data from the MySQL database for migrating to the new system.{" "}
+         - Cleaning, recovering, and export data from the MySQL database for migrating to the new system.{" "}
          </span>
          <br />
          <span className="resume-description-text">
