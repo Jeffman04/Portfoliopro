@@ -1,5 +1,3 @@
-/* Full Improved CSS with scrollable sections and better UX */
-
 .resume-container{
     display: flex;
     align-items: center;
@@ -8,41 +6,30 @@
     min-height: fit-content;
     margin: 120px 0;
 }
-
 .resume-card{
     display: flex;
     height: 360px;
     width: 1000px;
 }
-
 .resume-bullets{
     height: 100%;
     box-shadow: 15px 0 9px -15px #1f2235;
     width: 320px;
 }
-
 .resume-bullet-details{
     flex-grow: 1;
     width: 600px;
     overflow: hidden;
     padding: 0 0 0 70px;
 }
-
 .experience-description{
     margin: 10px 0 0 0;
     text-align: justify;
     max-width: 100%;
 }
-
-/* IMPROVED: make this scrollable */
 .resume-details-carousal{
     transition: transform 1s ease-out;
-    height: 360px;
-    overflow-y: auto;
-    padding-right: 10px; /* space for scrollbar */
-    scroll-behavior: smooth; /* smooth scroll when clicking bullets */
 }
-
 .bullet-container{
     display: flex;
     align-items: center;
@@ -50,13 +37,11 @@
     width: 100%;
     position: relative;
 }
-
 .bullets{
     width: 80%;
     position: relative;
     z-index: 2;
 }
-
 .bullet{
     display: flex;
     align-items: center;
@@ -69,18 +54,15 @@
     transition: width 0.6 ease;
     cursor: pointer;
 }
-
 .bullet-label{
     font-size: 14px;
     white-space:nowrap;
     font-family:"Poppins SemiBold";
 }
-
 .bullet-logo{
     height: 16px;
     margin: 0 30px 0 0;
 }
-
 .bullet-icons{
     width: 34px;
     height: 100%;
@@ -88,32 +70,26 @@
     background-color: #1f2235;
     position: absolute;
 }
-
 .selected-bullet{
     color: white;
     width: 100%;
 }
-
 .resume-screen-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* make sections stack naturally */
-    height: auto; /* allow section to grow naturally */
+    justify-content: space-evenly;
+    height: 360px;
     width: 100%;
-    padding-bottom: 20px; /* small bottom space */
 }
-
 .resume-heading{
     display: flex;
     flex-direction: column;
 }
-
 .resume-main-heading{
     position: relative;
     display: flex;
     justify-content: space-between;
 }
-
 .heading-bullet{
     position: absolute;
     left: -30px;
@@ -123,19 +99,16 @@
     background-color: var(--dark-orange);
     border-radius: 50%;
 }
-
 .resume-sub-heading{
     font-size: 14px;
     font-family: "Poppins SemoBold";
     color: #111;
     margin: 10px 0 0 0;
 }
-
 .resume-heading-description{
     font-size: 12px;
     text-align: justify;
 }
-
 .heading-date{
    background-color: var(--dark-orange);
    padding: 4px 12px;
@@ -143,14 +116,12 @@
    border-radius: 14px;
    color: white; 
 }
-
 .skill-parent{
     display: flex;
     flex-direction: column;
     position: relative;
     width: 50%;
 }
-
 .programming-skills-container{
     display: flex;
     flex-direction: row;
@@ -158,46 +129,23 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .skill-percentage{
     position: relative;
     height: 15px;
     width: 70%;
     background-color: var(--dark-orange);
 }
-
 .skill-percentage .active-percentage{
     height: 15px;
     transition: 0.8s ease;
     position: absolute;
     background-color: #1f2235;
 }
-
 .skill-parent span{
     font-family: "Poppins SemiBold";
     font-size: 16px;
     color: var(--dark-orange);
 }
-
-/* Optional: custom scrollbar for better UX */
-.resume-details-carousal::-webkit-scrollbar {
-    width: 8px;
-}
-
-.resume-details-carousal::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 4px;
-}
-
-.resume-details-carousal::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-}
-
-.resume-details-carousal::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {
     .resume-card {
@@ -207,10 +155,10 @@
     .resume-bullet-details {
       padding: 0 0 0 70px;
     }
-}
-
-/* IPAD RESPONSIVENESS */
-@media only screen and (max-width: 1023px) {
+  }
+  
+  /* IPAD RESPONSIVENESS */
+  @media only screen and (max-width: 1023px) {
     .resume-content {
       display: flex;
       flex-direction: column;
@@ -244,4 +192,4 @@
     .selected-bullet {
       width: 100%;
     }
-}
+  }
