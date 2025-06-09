@@ -133,6 +133,7 @@ export default function Resume(props) {
          </span>
          <br />
        </div>
+          </br>
            <ResumeHeading
          heading={"State Information Technology Agency"}
          subHeading={"SOFTWARE DEVELOPER EXPERIENTIAL TRAINEE"}
