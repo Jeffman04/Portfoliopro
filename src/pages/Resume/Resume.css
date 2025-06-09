@@ -17,9 +17,10 @@
     width: 320px;
 }
 .resume-bullet-details {
-  height: 360px; /* adjust as needed */
-  overflow-y: auto;
-  padding: 10px;
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto; /* this is the key line: if content is too long, this part will scroll */
+  max-height: 400px; /* set your desired height */
 }
 .experience-description{
     margin: 10px 0 0 0;
