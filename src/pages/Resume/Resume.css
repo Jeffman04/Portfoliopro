@@ -19,8 +19,9 @@
 .resume-bullet-details {
   flex-grow: 1;
   padding: 20px;
-  overflow-y: auto; /* this is the key line: if content is too long, this part will scroll */
-  max-height: 400px; /* set your desired height */
+  overflow-y: auto;
+  max-height: 400px;
+  width: 600px;
 }
 .experience-description{
     margin: 10px 0 0 0;
