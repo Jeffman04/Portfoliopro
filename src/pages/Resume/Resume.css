@@ -160,7 +160,7 @@
 }
 
 .resume-bullet-details::-webkit-scrollbar-thumb {
-  background-color: #4caf50; /* Green scrollbar */
+  background-color: orange; 
   border-radius: 4px;
   border: 2px solid #f0f0f0; /* Creates a padding effect */
 }
@@ -168,7 +168,7 @@
 /* Optional: For Firefox */
 .resume-bullet-details {
   scrollbar-width: thin;
-  scrollbar-color: #4caf50 #f0f0f0;
+  scrollbar-color: orange #f0f0f0;
 }
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {
