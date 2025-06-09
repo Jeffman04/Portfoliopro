@@ -248,7 +248,7 @@ export default function Resume(props) {
        style={carousalOffsetStyle.style}
        className="resume-details-carousal"
      >
-       {resumeDetails.map((ResumeDetail) => ResumeDetail)}
+       {resumeDetails}
      </div>
    );
  };
@@ -464,7 +464,7 @@ export default function Resume(props) {
 //         return(
 //             <div style={carousalOffSetStyle.style}
 //             className='resume-details-carousal'>
-//                 {ResumeDetails.map((ResumeDetail) => ResumeDetail)}
+//                 {resumeDetails}
 //             </div>
 //         )
 //     }
