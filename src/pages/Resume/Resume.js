@@ -275,7 +275,7 @@ export default function Resume(props) {
            </div>
          </div>
 
-         <div className="resume-bullet-details">{getResumeScreens()}</div>
+         <div className="resume-bullet-details">{resumeDetails[selectedBulletIndex]}</div>
        </div>
      </div>
    </div>
