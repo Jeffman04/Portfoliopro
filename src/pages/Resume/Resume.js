@@ -56,7 +56,7 @@ export default function Resume(props) {
  const programmingSkillsDetails = [
     {skill: "JavaScript", ratingPercentage: 75},
     {skill: "React JS", ratingPercentage: 80},
-    {skill: "Node JS", ratingPercentage: 65},
+    {skill: "PHP", ratingPercentage: 65},
     {skill: "HTML", ratingPercentage: 85},
     {skill: "CSS", ratingPercentage: 85},
     {skill: "Python", ratingPercentage: 75},
@@ -111,6 +111,32 @@ export default function Resume(props) {
          heading={"State Information Technology Agency"}
          subHeading={"SOFTWARE DEVELOPER INTERN"}
           fromDate ={"2024"}
+          toDate ={"2025"}
+       />
+       <div className="experience-description">
+         <span className="resume-description-text">
+         Currently working as a Software developer
+         </span>
+       </div>
+       <div className="experience-description">
+         <span className="resume-description-text">
+         - maintained the website for client for managing their
+            data, authorising users, uploading documents etc..
+         </span>
+         <br />
+         <span className="resume-description-text">
+         - Cleaning, recovering, and export data from the MySQL database for migrating to the new system.{" "}
+         </span>
+         <br />
+         <span className="resume-description-text">
+           - Integrate the web with the server and exchange for emails.
+         </span>
+         <br />
+       </div>
+           <ResumeHeading
+         heading={"State Information Technology Agency"}
+         subHeading={"SOFTWARE DEVELOPER EXPERIENTIAL TRAINEE"}
+          fromDate ={"2025"}
           toDate ={"present"}
        />
        <div className="experience-description">
