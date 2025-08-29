@@ -2,7 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import './Profile.css'
 import ScrollService from '../../../utilities/ScrollService'
-import Resume1 from "../../../assets/resume1.pdf"
+import Resume1 from "../../../assets/MyResume.pdf"
 
 export default function Profile() {
   return (
@@ -58,7 +58,7 @@ export default function Profile() {
                         <button className='primary-btn' onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                             Hire me
                         </button>
-                        <a href={MyResume} download='Rotshidzwa.pdf'>
+                        <a href={Resume1} download='Rotshidzwa.pdf'>
                             <button className='highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
