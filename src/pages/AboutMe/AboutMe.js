@@ -3,7 +3,7 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import ScrollService from '../../utilities/ScrollService'
 import Animations from '../../utilities/Animations'
 import './AboutMe.css'
-import Resume1 from '../../assets/resume1.pdf'
+import Resume1 from '../../assets/MyResume.pdf'
 
 export default function AboutMe(props) {
 
@@ -54,7 +54,7 @@ export default function AboutMe(props) {
                     </div>
                     <div className='about-me-options'>
                     <button className='primary-btn'onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>hire me</button>
-                        <a href={MyResume} download='Rotshidzwa.pdf'>
+                        <a href={Resume1} download='Rotshidzwa.pdf'>
                             <button className='highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
