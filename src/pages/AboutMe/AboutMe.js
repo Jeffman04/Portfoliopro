@@ -15,12 +15,12 @@ export default function AboutMe(props) {
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
   
     const Screen_Constants ={
-        description: "Dedicated and talented web developer with a passion for crafting exceptional digital experiences. Proficient in HTML, CSS, JavaScript, React, Node.js. With a strong foundation in both front-end and back-end development, I'm skilled in creating responsive, user-friendly, and high-performance web applications. Eager to collaborate on innovative projects and contribute to the growth of a dynamic team.",
+        description: "Dedicated and talented web developer with a passion for crafting exceptional digital experiences. Proficient in HTML, CSS, JavaScript, React, and Node.js. With a strong foundation in both front-end and back-end development, I'm skilled in creating responsive, user-friendly, and high-performance web applications. Eager to collaborate on innovative projects and contribute to the growth of a dynamic team.",
         highlights:{
             bullets:[
                 "Web and mobile development",
                 "Interactive Front End as per design",
-                "React js",
+                "React.js",
                 "Managing database",
                 "Git and GitHub"
             ],
@@ -54,7 +54,7 @@ export default function AboutMe(props) {
                     </div>
                     <div className='about-me-options'>
                     <button className='primary-btn'onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>hire me</button>
-                        <a href={Resume1} download='Rotshidzwa.pdf'>
+                        <a href={MyResume} download='Rotshidzwa.pdf'>
                             <button className='highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
