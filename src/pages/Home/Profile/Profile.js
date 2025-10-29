@@ -42,7 +42,7 @@ export default function Profile() {
                                 steps={[
                                     "Enthusiastic Dev 😎", 2000,  // Increase delay here
                                     "", 800,                   // Small pause
-                                    "Front End Developer 💻", 2000,
+                                    "FullStack Developer 💻", 2000,
                                     "", 800,
                                     "React.js Dev 🌐", 2000,
                                     "", 800,
@@ -58,7 +58,7 @@ export default function Profile() {
                         <button className='primary-btn' onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                             Hire me
                         </button>
-                        <a href={Resume1} download='Rotshidzwa.pdf'>
+                        <a href={Resume1} download='Rotshidzwas_CV.pdf'>
                             <button className='highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
