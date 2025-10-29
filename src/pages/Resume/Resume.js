@@ -61,8 +61,9 @@ export default function Resume(props) {
     {skill: "CSS", ratingPercentage: 85},
     {skill: "Python", ratingPercentage: 75},
     {skill: ".Net", ratingPercentage: 70},
-    {skill: "MYSQL", ratingPercentage: 75},
+    {skill: "MYSQL", ratingPercentage: 85},
     {skill: "linux", ratingPercentage: 75},
+    {skill: "MSserver", ratingPercentage:85},
  ];
 
  const projectsDetails = [
@@ -125,9 +126,11 @@ export default function Resume(props) {
            ASP.NET.
          </span>
          <br />
+         <br />
          <span className="resume-description-text">
          - Deploy and manage applications on Windows Server/IIS..
          </span>
+         <br />
          <br />
          <span className="resume-description-text">
            - Administer Windows Server, Linux, and MS SQL Server, adding and managing users/admins, resetting and changing passwords, monitoring system performance, and configuring and managing SSL certificates
@@ -138,9 +141,11 @@ export default function Resume(props) {
            - Perform database cleaning, recovery, and migration of MySQL and MSSQL Server.
          </span>
          <br />
+         <br />
          <span className="resume-description-text">
            - Integrate web applications with mail servers to automate notifications.
          </span>
+         <br />
          <br />
          <span className="resume-description-text">
            - Collaborate with senior developers to optimize performance and troubleshoot issues.
@@ -165,9 +170,11 @@ export default function Resume(props) {
          - Maintained client websites for data management, user authorization, and document uploads.
          </span>
          <br />
+         <br />
          <span className="resume-description-text">
          - Assisted with database migration and recovery tasks.
          </span>
+         <br />
          <br />
          <span className="resume-description-text">
            - Supported integration of web applications with backend servers and email systems.
