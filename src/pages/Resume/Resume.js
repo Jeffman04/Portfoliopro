@@ -60,8 +60,9 @@ export default function Resume(props) {
     {skill: "HTML", ratingPercentage: 85},
     {skill: "CSS", ratingPercentage: 85},
     {skill: "Python", ratingPercentage: 75},
-    {skill: "C#", ratingPercentage: 70},
+    {skill: ".Net", ratingPercentage: 70},
     {skill: "MYSQL", ratingPercentage: 75},
+    {skill: "linux", ratingPercentage: 75},
  ];
 
  const projectsDetails = [
@@ -109,6 +110,47 @@ export default function Resume(props) {
      <div className="experience-container">
        <ResumeHeading
          heading={"State Information Technology Agency"}
+         subHeading={"SOFTWARE DEVELOPER EXPERIENTIAL TRAINEE"}
+          fromDate ={"2025"}
+          toDate ={"Present"}
+       />
+       <div className="experience-description">
+         <span className="resume-description-text">
+         Currently working as a Software developer
+         </span>
+       </div>
+       <div className="experience-description">
+         <span className="resume-description-text">
+         - Develop and maintain client-facing websites using Angular, C#,
+           ASP.NET.
+         </span>
+         <br />
+         <span className="resume-description-text">
+         - Deploy and manage applications on Windows Server/IIS..
+         </span>
+         <br />
+         <span className="resume-description-text">
+           - Administer Windows Server, Linux, and MS SQL Server, adding and managing users/admins, resetting and changing passwords, monitoring system performance, and configuring and managing SSL certificates
+         </span>
+         <br />
+         <br />
+         <span className="resume-description-text">
+           - Perform database cleaning, recovery, and migration of MySQL and MSSQL Server.
+         </span>
+         <br />
+         <span className="resume-description-text">
+           - Integrate web applications with mail servers to automate notifications.
+         </span>
+         <br />
+         <span className="resume-description-text">
+           - Collaborate with senior developers to optimize performance and troubleshoot issues.
+         </span>
+         <br />
+       </div>
+          <br></br>
+          <br></br>
+           <ResumeHeading
+         heading={"State Information Technology Agency"}
          subHeading={"SOFTWARE DEVELOPER INTERN"}
           fromDate ={"2024"}
           toDate ={"2025"}
@@ -120,44 +162,15 @@ export default function Resume(props) {
        </div>
        <div className="experience-description">
          <span className="resume-description-text">
-         - maintained the website for the client for managing their
-            data, authorising users, uploading documents, etc..
+         - Maintained client websites for data management, user authorization, and document uploads.
          </span>
          <br />
          <span className="resume-description-text">
-         - Cleaning, recovering, and exporting data from the MySQL database for migrating to the new system.{" "}
+         - Assisted with database migration and recovery tasks.
          </span>
          <br />
          <span className="resume-description-text">
-           - Integrate the web with the server and exchange emails.
-         </span>
-         <br />
-       </div>
-          <br></br>
-          <br></br>
-           <ResumeHeading
-         heading={"State Information Technology Agency"}
-         subHeading={"SOFTWARE DEVELOPER EXPERIENTIAL TRAINEE"}
-          fromDate ={"2025"}
-          toDate ={"present"}
-       />
-       <div className="experience-description">
-         <span className="resume-description-text">
-         Currently working as a Software developer
-         </span>
-       </div>
-       <div className="experience-description">
-         <span className="resume-description-text">
-         - maintained the website for the client for managing their
-            data, authorising users, uploading documents, etc..
-         </span>
-         <br />
-         <span className="resume-description-text">
-         - Cleaning, recovering, and exporting data from the MySQL database for migrating to the new system.{" "}
-         </span>
-         <br />
-         <span className="resume-description-text">
-           - Integrate the web with the server and exchange emails.
+           - Supported integration of web applications with backend servers and email systems.
          </span>
          <br />
        </div>
