@@ -117,11 +117,6 @@ export default function Resume(props) {
        />
        <div className="experience-description">
          <span className="resume-description-text">
-         Currently working as a Software developer
-         </span>
-       </div>
-       <div className="experience-description">
-         <span className="resume-description-text">
          - Develop and maintain client-facing websites using Angular, C#,
            ASP.NET.
          </span>
@@ -160,11 +155,6 @@ export default function Resume(props) {
           fromDate ={"2024"}
           toDate ={"2025"}
        />
-       <div className="experience-description">
-         <span className="resume-description-text">
-         Currently working as a Software developer
-         </span>
-       </div>
        <div className="experience-description">
          <span className="resume-description-text">
          - Maintained client websites for data management, user authorization, and document uploads.
