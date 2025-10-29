@@ -22,7 +22,8 @@ export default function AboutMe(props) {
                 "Interactive Front End as per design",
                 "React.js",
                 "Managing database",
-                "Git and GitHub"
+                "Git and GitHub",
+                ".NET"
             ],
             heading: "Here are the Few Highlights"
         }
@@ -54,7 +55,7 @@ export default function AboutMe(props) {
                     </div>
                     <div className='about-me-options'>
                     <button className='primary-btn'onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>hire me</button>
-                        <a href={Resume1} download='Rotshidzwa.pdf'>
+                        <a href={Resume1} download='Rotshidzwas_CV.pdf'>
                             <button className='highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
