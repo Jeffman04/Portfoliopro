@@ -54,7 +54,7 @@ export default function Resume(props) {
 
  //here we have
  const programmingSkillsDetails = [
-    {skill: "JavaScript", ratingPercentage: 75},
+    /*{skill: "JavaScript", ratingPercentage: 75},
     {skill: "React JS", ratingPercentage: 80},
     {skill: "PHP", ratingPercentage: 65},
     {skill: "HTML", ratingPercentage: 85},
@@ -63,10 +63,37 @@ export default function Resume(props) {
     {skill: ".Net", ratingPercentage: 70},
     {skill: "MYSQL", ratingPercentage: 85},
     {skill: "linux", ratingPercentage: 75},
-    {skill: "MSserver", ratingPercentage:85},
+    {skill: "MSserver", ratingPercentage:85},*/
+  
+    {skill: "JavaScript", ratingPercentage: 75},
+    {skill: "Angular / AngularJS", ratingPercentage: 70},
+    {skill: "React JS", ratingPercentage: 80},
+    {skill: "C# / .NET", ratingPercentage: 70},
+    {skill: "PHP", ratingPercentage: 65},
+    {skill: "HTML", ratingPercentage: 85},
+    {skill: "CSS", ratingPercentage: 85},
+    {skill: "Python", ratingPercentage: 75},
+    {skill: "MYSQL", ratingPercentage: 85},
+    {skill: "MS SQL Server", ratingPercentage: 85},
+    {skill: "Windows Server / IIS", ratingPercentage: 75},
+    {skill: "linux", ratingPercentage: 75},
  ];
 
  const projectsDetails = [
+    {
+     title: "SAWIC / SAWIS (Waste Information Systems)",
+     duration: { fromDate: "2024", toDate: "Present" },
+     description:
+       "Application maintenance and feature work on national waste information systems, including the Extended Producer Responsibility (EPR) module: bug fixes, new features, database changes and GIS endpoint support.",
+     subHeading: "Technologies Used: AngularJS, ASP.NET Web API, SQL Server",
+   },
+   {
+     title: "AtoM Archival System (Access to Memory)",
+     duration: { fromDate: "2025", toDate: "Present" },
+     description:
+       "Administration and troubleshooting of an archival catalogue platform for a national government department.",
+     subHeading: "Technologies Used: AtoM, Linux, MySQL",
+   },
    {
      title: "Personal Portfolio Website",
      duration: { fromDate: "2023", toDate: "2024" },
@@ -109,6 +136,40 @@ export default function Resume(props) {
    /* WORK EXPERIENCE */
    <div className="resume-screen-container" key="work-experience">
      <div className="experience-container">
+       <ResumeHeading
+         heading={"State Information Technology Agency"}
+         subHeading={"JUNIOR SOFTWARE DEVELOPER"}
+          fromDate ={"2026"}
+          toDate ={"Present"}
+       />
+       <div className="experience-description">
+         <span className="resume-description-text">
+         - Maintain and enhance enterprise applications for South African government departments (DFFE and DAC), including SAWIC/SAWIS, its EPR module, and the AtoM archival system.
+         </span>
+         <br />
+         <br />
+         <span className="resume-description-text">
+         - Full-stack development and bug fixing using AngularJS, ASP.NET Web API, C# and SQL Server.
+         </span>
+         <br />
+         <br />
+         <span className="resume-description-text">
+         - Deploy and manage applications on Windows Server/IIS, including SSL/TLS certificate configuration and renewal.
+         </span>
+         <br />
+         <br />
+         <span className="resume-description-text">
+         - Manage databases: change management, cleanup, recovery and migration on MS SQL Server and MySQL.
+         </span>
+         <br />
+         <br />
+         <span className="resume-description-text">
+         - Work with senior developers, GIS colleagues and auditors to deliver reliable, well-documented changes.
+         </span>
+         <br />
+       </div>
+          <br></br>
+          <br></br>
        <ResumeHeading
          heading={"State Information Technology Agency"}
          subHeading={"SOFTWARE DEVELOPER EXPERIENTIAL TRAINEE"}
