@@ -25,14 +25,14 @@
     font-family: cursive;
 }
 .primary-text{
-    color: (--white);
+    color: var(--white);
 }
 .highlighted-text{
     color: var(--dark-orange);
 }
 .profile-role-tagline{
     font-size: 19px;
-    margin: 5px 0 0 0 0;
+    margin: 5px 0 0 0;
     font-family: "Poppins Light";
 }
 .profile-options .highlighted-btn{
@@ -85,7 +85,7 @@
     .profile-details-role .primary-text{
         font-size:12px ;
     }
-    .profile-options .button{
+    .profile-options button{
         width: 120px;
         padding: 11px 0;
         z-index: 700;
