@@ -40,17 +40,16 @@ export default function Profile() {
                                 loop={Infinity}
                                 wrapper="p"
                                 steps={[
-                                    "Enthusiastic Dev 😎", 2000,  // Increase delay here
+                                    "Junior Developer @ SITA 😎", 2000,  // Increase delay here
                                     "", 800,                   // Small pause
                                     "FullStack Developer 💻", 2000,
                                     "", 800,
-                                    "React.js Dev 🌐", 2000,
+                                    "Angular $ .NET Dev 🌐", 2000,
                                     "", 800,
                                   ]}/>
                             </h1>
                             <span className='profile-role-tagline'>
-                                Knack of building applications with front and back end
-                                operations.
+                              Building and maintaining government web applications, from Angular front ends to ASP.NET and SQL Server back ends.  
                             </span>
                         </span>
                     </div>
