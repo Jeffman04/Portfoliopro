@@ -15,15 +15,15 @@ export default function AboutMe(props) {
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
   
     const Screen_Constants ={
-        description: "Dedicated and talented web developer with a passion for crafting exceptional digital experiences. Proficient in HTML, CSS, JavaScript, React, and Node.js. With a strong foundation in both front-end and back-end development, I'm skilled in creating responsive, user-friendly, and high-performance web applications. Eager to collaborate on innovative projects and contribute to the growth of a dynamic team.",
+        description: "Junior Software Developer at the State Information Technology Agency (SITA), maintaining and extending enterprise applications for South African government departments. I work across the full stack: Angular and AngularJS front ends, ASP.NET and C# back ends, and SQL Server databases, deployed on Windows Server and IIS. Day to day I fix bugs, ship features, manage database changes, configure SSL certificates and keep live government systems running reliably. I came up through SITA's intern and experiential training programmes, and I'm always looking to learn more and take on bigger responsibility.",
         highlights:{
             bullets:[
-                "Web and mobile development",
-                "Interactive Front End as per design",
-                "React.js",
-                "Managing database",
-                "Git and GitHub",
-                ".NET"
+                "Full-stack development: Angular, ASP.NET, C#",
+                "SQL Server and MySQL: migration, recovery, cleanup",
+                "Windows Server, IIS and SSL certificate management",
+                "Maintaining live government web applications",
+                "React.js and modern front-end development",
+                "Git and GitHub"
             ],
             heading: "Here are the Few Highlights"
         }
